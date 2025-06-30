@@ -1,0 +1,11 @@
+git clone
+
+cd cupcake
+
+touch generate_commits.sh
+
+chmod +x generate_commits.sh
+
+./generate_commits.sh "2022-06-25" "2025-06-30"
+
+$ ./generate_commits.sh "2012-10-04" "2025-04-30"
