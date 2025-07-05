@@ -10,6 +10,7 @@ fi
 start_date=$1
 end_date=$2
 
+
 # Create or clear the file
 echo "Initial content" > file.txt
 git add file.txt
